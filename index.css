@@ -1,0 +1,41 @@
+ body {
+    background-color: #232323;
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.square {
+    background: green;
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%
+}
+
+.container {
+    max-width: 600%;
+    margin: 0 auto;
+    
+}
+
+span {
+    color: azure;
+}
+
+.stripe {
+    background-color: beige;
+    height: 30px;
+    text-align: center;
+}
+
+button {
+    height: 20px;
+}
+
+.selected {
+    background-color: aqua;
+}
