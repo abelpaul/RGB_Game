@@ -36,7 +36,7 @@ padding-bottom: 5px;
 }
 
 .container {
-    max-width: 600%;
+    max-width: 300px;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -80,5 +80,5 @@ button:hover {
 }
 
 .selected {
-    background-color white;
+    background-color: white;
 }
