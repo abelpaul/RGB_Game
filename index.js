@@ -53,9 +53,18 @@ easyBtn.addEventListener("click",function() {
 hardBtn.addEventListener("click",function() {
     easyBtn.classList.remove("selected");
     hardBtn.classList.add("selected");
+    colors = generateRandomColors(6)
+    pickedColor = pickColor();
+    colorDisplay.textContent = pickedColor;
+    for(let i=0; i<squares.length; i++) {
+    
+            squares[i].style.backgroundColor = colors[i];
+            squares[i].style.display = "block";
+        
+    }
 })
 
-h1.style.backgroundColor = "#232323";
+h1.style.backgroundColor = "steelblue";
 })
 
 colorDisplay.textContent = pickedColor ;
